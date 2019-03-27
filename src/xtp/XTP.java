@@ -14,10 +14,13 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.annotations.Test;
 
 import com.sun.glass.events.KeyEvent;
 
 public class XTP {
+	
+	@Test
 
 	public static void main(String[] args) throws InterruptedException, AWTException {
 // TODO Auto-generated method stub
