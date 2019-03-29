@@ -2,5 +2,9 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Xerox">
   <test thread-count="5" name="Test">
+  <packages>
+            <package name="src.xtp" />
+            <package name="src.xtp" />
+        </packages>
   </test> <!-- Test -->
 </suite> <!-- Xerox -->
